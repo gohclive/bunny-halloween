@@ -1,44 +1,34 @@
 ---
-title: Mission
+title: 🕷 Fix the Haunted Pipeline!
 type: mission
 ---
 
-# CSIT Mini Challenge: Debug the Haunted Pipeline {.font-light .text-black .text-xl}
+<p class="text-center text-xl mb-8">Your main missions in this ghostly challenge are:</p>
 
-<br/>
+<div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
 
-# 👻 The Rabbit's Plea {.text-2xl .tracking-wider .font-bold}
+    <div class="md:w-1/3 p-4 bg-white shadow-lg rounded transform transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+        <img src="/img/lint-roller.png" alt="Lint Image" class="w-1/2 mx-auto mb-4 rounded">
+        <h2 class="tracking-wide text-halloween-cauldron font-bold text-2xl uppercase mb-2">Lint</h2>
+        <p class="font-light text-halloween-witchHat text-lg sm:w-2/3 mx-auto">
+            The primary purpose of this task is to scrutinize the code formatting using a linter. Ensure this task is not cursed with any formatting anomalies.
+        </p>
+    </div>
 
-With the weight of Halloween resting on his shoulders, Mighty Saver Rabbit beckons you into this spectral realm. He calls out for your expertise to mend the broken spells and ensure a hauntingly flawless app launch before the All Hallows' Eve. {.font-light .text-black .text-xl}
+    <div class="md:w-1/3 p-4 bg-white shadow-lg rounded transform transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+        <img src="/img/browser.png" alt="Test Image" class="w-1/2 mx-auto mb-4 rounded">
+        <h2 class="tracking-wide text-halloween-cauldron font-bold text-2xl uppercase mb-2">Test</h2>
+        <p class="font-light text-halloween-witchHat text-lg sm:w-2/3 mx-auto">
+            This job is crafted to run the unit tests on the FastAPI application. Make sure that no ghouls or glitches haunt the unit tests, and they all pass successfully.
+        </p>
+    </div>
 
-If you dare to heed the call, start by cloning the repository with the tainted pipeline. This will offer you a secluded chamber to battle the dark forces, while the Rabbit keeps an eagle-eyed watch on your progress and spell-binding skills. {.font-light .text-black .text-xl}
+    <div class="md:w-1/3 p-4 bg-white shadow-lg rounded transform transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
+        <img src="/img/container.png" alt="Build Image" class="w-1/2 mx-auto mb-4 rounded">
+        <h2 class="tracking-wide text-halloween-cauldron font-bold text-2xl uppercase mb-2">Build</h2>
+        <p class="font-light text-halloween-witchHat text-lg sm:w-2/3 mx-auto">
+            In this segment, the Docker image of the FastAPI application is concocted. It's your duty to guarantee the image materializes without a hitch.
+        </p>
+    </div>
 
-<br/>
-
-# 🕷 Your Tasks in this Twilight Quest {.text-2xl .tracking-wider .font-bold}
-
-Your main missions in this ghostly challenge are: {.font-light .text-black .text-xl}
-
-<br/>
-
-&#8291;1. Lint {.tracking-wide .text-halloween-pumpkin .font-bold .text-2xl .uppercase mb-2}
-
-The primary purpose of this job is to scrutinize the code formatting using a linter. Ensure this task is not cursed with any formatting anomalies. {.font-light .text-halloween-witchHat .text-lg .sm:w-2/3 .mx-auto}
-
-&#8291;2. Test {.tracking-wide .text-halloween-pumpkin .font-bold .text-2xl .uppercase mb-2}
-
-This job is crafted to run the unit tests on the FastAPI application. Make sure that no ghouls or glitches haunt the unit tests, and they all pass successfully. {.font-light .text-halloween-witchHat .text-lg .sm:w-2/3 .mx-auto}
-
-&#8291;3. Build {.tracking-wide .text-halloween-pumpkin .font-bold .text-2xl .uppercase mb-2}
-
-In this segment, the Docker image of the FastAPI application is concocted. It's your duty to guarantee the image materializes without a hitch. {.font-light .text-halloween-witchHat .text-lg .sm:w-2/3 .mx-auto}
-
-<br/>
-
-# 🦉 Hidden Charms & Your Final Act {.text-2xl .tracking-wider .font-bold}
-
-During this moonlit challenge, certain jobs of the CI/CD pipeline guard mystical flags, much like treasures in a haunted mansion. Only upon the successful completion of a ritual will these flags reveal themselves. They will be the testament of your victory over the lurking shadows. {.font-light .text-black .text-xl}
-
-Your mission is to collect these flags as tokens of your victory against the Halloween horrors. Moreover, you're expected to deploy your perfected FastAPI application to a cloud platform of your choosing. After the haunting deployment, please submit the URL of your bewitched application as evidence of the exorcised pipeline and triumphant deployment. {.font-light .text-black .text-xl}
-
-Under the watchful eyes of a thousand stars, Mighty Saver Rabbit waits. He believes in your magic and hopes you emerge victorious from this ghoulish escapade. Beware, for the clock is ticking, and Halloween draws near! {.font-light .text-black .text-xl}
+</div>
