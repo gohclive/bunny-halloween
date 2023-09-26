@@ -3,30 +3,79 @@
     "title": "GitLab CI/CD",
     "icon": "icon2.svg",
     "description": "GitLab CI/CD is a tool built into GitLab for software development through the continuous methodologies of Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment (CD).",
-    "content": "[GitLab CI/CD Documentation](https://docs.gitlab.com/ee/ci/) <br> [An Introduction to GitLab CI/CD](https://www.youtube.com/watch?v=8nL7Ef_y_1w)"
+    "links": [
+      {
+        "title": "GitLab CI/CD Documentation",
+        "url": "https://docs.gitlab.com/ee/ci/"
+      },
+      {
+        "title": "An Introduction to GitLab CI/CD",
+        "url": "https://www.youtube.com/watch?v=8nL7Ef_y_1w"
+      }
+    ]
   },
   {
     "title": "Docker",
     "icon": "icon3.svg",
     "description": "Docker is a platform that uses OS-level virtualization to deliver software in packages called containers, ensuring it runs the same regardless of the environment.",
-    "content": "[Docker Getting Started Guide](https://docs.docker.com/get-started/) <br> [Docker and Kubernetes: The Complete Guide](https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/)"
+    "links": [
+      {
+        "title": "Docker Getting Started Guide",
+        "url": "https://docs.docker.com/get-started/"
+      },
+      {
+        "title": "Docker and Kubernetes: The Complete Guide",
+        "url": "https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/"
+      }
+    ]
   },
   {
     "title": "Linting in Python",
     "icon": "icon4.svg",
     "description": "Linting is the process of analyzing code for potential errors and stylistic issues. In Python, tools like Flake8 are popular for this purpose.",
-    "content": "[Flake8: Your Tool for Style Guide Enforcement](https://flake8.pycqa.org/en/latest/) <br> [Python Code Quality: Tools & Best Practices](https://realpython.com/tutorials/code-quality/)"
+    "links": [
+      {
+        "title": "Flake8: Your Tool for Style Guide Enforcement",
+        "url": "https://flake8.pycqa.org/en/latest/"
+      },
+      {
+        "title": "Python Code Quality: Tools & Best Practices",
+        "url": "https://realpython.com/tutorials/code-quality/"
+      }
+    ]
   },
   {
     "title": "Testing in Python with pytest",
     "icon": "icon5.svg",
     "description": "pytest is a popular framework in Python for writing and executing tests. It's known for its simplicity and scalability in writing simple to advanced test cases.",
-    "content": "[pytest Official Documentation](https://docs.pytest.org/en/stable/contents.html) <br> [Python Testing with pytest](https://www.youtube.com/watch?v=bbp_849-RZ4)"
+    "links": [
+      {
+        "title": "pytest Official Documentation",
+        "url": "https://docs.pytest.org/en/stable/contents.html/"
+      },
+      {
+        "title": "Python Testing with pytest",
+        "url": "https://www.youtube.com/watch?v=bbp_849-RZ4"
+      }
+    ]
   },
   {
     "title": "Cloud Deployment",
     "icon": "icon6.svg",
     "description": "Deploying applications in the cloud allows for scalability and accessibility. Major providers include AWS, Google Cloud, and Microsoft Azure.",
-    "content": "[Introduction to AWS for Developers](https://aws.amazon.com/getting-started/hands-on/) <br> [Google Cloud Platform Fundamentals](https://cloud.google.com/docs/tutorials) <br> [Microsoft Azure Documentation](https://docs.microsoft.com/en-us/azure/?product=featured)"
+    "links": [
+      {
+        "title": "Introduction to AWS for Developers",
+        "url": "https://aws.amazon.com/getting-started/hands-on/"
+      },
+      {
+        "title": "Google Cloud Platform Fundamentals",
+        "url": "https://cloud.google.com/docs/tutorials"
+      },
+      {
+        "title": "Microsoft Azure Documentation",
+        "url": "https://docs.microsoft.com/en-us/azure/?product=featured"
+      }
+    ]
   }
 ]
