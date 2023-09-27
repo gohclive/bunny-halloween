@@ -1,8 +1,8 @@
 {% for item in collections.sections %}
   {% if item.data.type === 'learn' %}
-    <div id="learn" class="flex flex-col justify-center pb-12 bg-halloween-potion">
+    <div id="learn" class="flex flex-col justify-center pb-8 bg-halloween-potion">
       <div class="self-center items-center flex flex-col sm:flex-col w-full px-4 sm:px-0">
-        <div class="flex flex-col w-full justify-center h-full py-12">
+        <div class="flex flex-col w-full justify-center h-full pt-12">
           <div class="w-1/2 self-center text-center h-full">
             <h2 class="tracking-wide text-halloween-pumpkin font-bold text-4xl mb-4">{{ item.data.title }}</h2>
             <div class="font-light text-white text-xl mb-6">
@@ -31,12 +31,12 @@
                 </div>
               {% endfor %}
             </div>
-            <div class="self-center text-center w-full sm:w-1/2 px-4 sm:px:0">
-              <h4 class="font-bold tracking-widest text-halloween-pumpkin text-2xl my-6">These resources should provide a strong
-                foundation and help you troubleshoot issues as you progress through the challenge. Good luck!</h4>
-            </div>
           </div>
         </div>
+      </div>
+      <div class="self-center text-center w-full sm:w-1/2 px-4 sm:px:0">
+        <h4 class="font-bold tracking-widest text-halloween-pumpkin text-2xl my-6">These resources should provide a strong
+          foundation and help you troubleshoot issues as you progress through the challenge. Good luck!</h4>
       </div>
     </div>
   {% endif %}
