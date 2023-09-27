@@ -35,6 +35,18 @@ module.exports = {
 
       // Halloween Theme
       halloween: {
+        white: "#ffffff",
+        lightPurple: "#c1a3ff",
+        purple: "#9150e9",
+        indigo: "#543593",
+        gold: "#ffda54",
+        lightBrown: "#cb8b4d",
+        green: "#80be3b",
+        darkGreen: "#586830",
+        orange: "#ff8f47",
+        redBrown: "#a04732",
+        brown: "#79493e",
+        black: "#000000",
         pumpkin: "#ff7900", // A pumpkin orange shade
         ghost: "#F8F8FF", // A very light shade close to white for ghostly figures
         witchHat: "#2F4F4F", // Dark slate gray, almost like the color of a witch hat

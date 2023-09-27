@@ -1,7 +1,10 @@
 {% for item in collections.sections %}
   {% if item.data.type === 'mission' %}
-    <div id="mission" class="w-full flex flex-col justify items-center py-12">
-      <div class="self-center text-center w-full sm:w-2/3 xl:w-6/7 px-4 sm:px:0">
+    <div id="mission" class="flex flex-col justify items-center pb-12 bg-halloween-white">
+      <div
+        class="h-[calc(100vh-104px)] self-center flex flex-col text-center w-full md:w-5/6 xl:w-2/3 px-4 sm:px-0">
+        {# <div id="mission" class="w-full flex flex-col justify items-center py-12">
+                                                                          <div class="self-center text-center w-full sm:w-2/3 xl:w-6/7 px-4 sm:px:0"> #}
         <h2 class="font-bold tracking-wider text-halloween-cauldron text-4xl mb-4">{{ item.data.title }}</h2>
         <div>
           {{ item.templateContent | safe }}
