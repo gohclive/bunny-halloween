@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Lint",
+    "icon": "lint-roller.png",
+    "description": "The primary purpose of this task is to scrutinize the code formatting using a linter. Ensure this task is not cursed with any formatting anomalies."
+  },
+  {
+    "title": "Test",
+    "icon": "browser.png",
+    "description": "This job is crafted to run the unit tests on the FastAPI application. Make sure that no ghouls or glitches haunt the unit tests, and they all pass successfully."
+  },
+  {
+    "title": "Build",
+    "icon": "container.png",
+    "description": "In this segment, the Docker image of the FastAPI application is concocted. It's your duty to guarantee the image materializes without a hitch."
+  }
+]
