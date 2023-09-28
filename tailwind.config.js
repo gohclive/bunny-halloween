@@ -44,7 +44,8 @@ module.exports = {
         green: "#80be3b",
         darkGreen: "#586830",
         orange: "#ff8f47",
-        redBrown: "#a04732",
+        deepOrange: "#FF5733",
+        hoverOrange:"#D44100",
         brown: "#79493e",
         black: "#000000",
         pumpkin: "#ff7900", // A pumpkin orange shade
@@ -54,6 +55,8 @@ module.exports = {
         night: "#31263e",
         potion: "#4B0082", // Deep purple for a mystical potion look
         cauldron: "#006400", // Deep green for the appearance of a bubbling cauldron
+        coolPurple: "#5a189a",
+        coolGreen: "#004000"
       },
     },
     spacing: {

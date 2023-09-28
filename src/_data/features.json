@@ -1,7 +1,7 @@
 [
   {
     "title": "GitLab CI/CD",
-    "icon": "icon2.svg",
+    "icon": "devops.png",
     "description": "GitLab CI/CD is a tool built into GitLab for software development through the continuous methodologies of Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment (CD).",
     "links": [
       {
@@ -15,23 +15,8 @@
     ]
   },
   {
-    "title": "Docker",
-    "icon": "icon3.svg",
-    "description": "Docker is a platform that uses OS-level virtualization to deliver software in packages called containers, ensuring it runs the same regardless of the environment.",
-    "links": [
-      {
-        "title": "Docker Getting Started Guide",
-        "url": "https://docs.docker.com/get-started/"
-      },
-      {
-        "title": "Docker and Kubernetes: The Complete Guide",
-        "url": "https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/"
-      }
-    ]
-  },
-  {
     "title": "Linting in Python",
-    "icon": "icon4.svg",
+    "icon": "programming.png",
     "description": "Linting is the process of analyzing code for potential errors and stylistic issues. In Python, tools like Flake8 are popular for this purpose.",
     "links": [
       {
@@ -46,7 +31,7 @@
   },
   {
     "title": "Testing in Python with pytest",
-    "icon": "icon5.svg",
+    "icon": "pass-test.png",
     "description": "pytest is a popular framework in Python for writing and executing tests. It's known for its simplicity and scalability in writing simple to advanced test cases.",
     "links": [
       {
@@ -61,7 +46,7 @@
   },
   {
     "title": "Cloud Deployment",
-    "icon": "icon6.svg",
+    "icon": "app-development.png",
     "description": "Deploying applications in the cloud allows for scalability and accessibility. Major providers include AWS, Google Cloud, and Microsoft Azure.",
     "links": [
       {
