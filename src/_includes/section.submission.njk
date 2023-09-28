@@ -3,12 +3,29 @@
     <div id="submission" class="flex flex-col justify items-center pb-12 bg-halloween-ghost">
       <div class="h-[calc(100vh-104px)] self-center flex flex-col text-center w-full md:w-5/6 xl:w-2/3 px-4 sm:px-0">
         <div class="flex flex-col justify-center h-full py-12">
-          <h2 class="font-bold tracking-wider text-halloween-cauldron text-4xl mb-4">{{ item.data.title }}</h2>
-          <div class="flex flex-col md:flex-col space-y-4 md:space-y-0 md:space-x-4 w-6/7 self-center">
-            {{ item.templateContent | safe }}
+          <div class="self-center items-center flex flex-col sm:flex-row w-full  px-4 sm:px-0">
+            <div class="flex-col self-center text-left w-full sm:w-2/3 xl:w-6/7 ml-auto col-span-1">
+              <h2 class="font-bold tracking-wider text-halloween-pumpkin text-4xl mb-4">{{ item.data.title }}</h2>
+              <div class="font-light text-white text-xl text-justify">
+                {{ item.templateContent | safe }}
+              </div>
+              <br>
+                <div class="flex flex-row w-full justify-center pb-12">
+                  <a
+                    class="px-10 py-2 text-gray-200 bg-halloween-pumpkin rounded-full shadow-md text-2xl
+                      hover:bg-halloween-witchHathover:border-red"
+                    target="_blank"
+                    href="https://go.gov.sg/ndpbunny">Submit Flags!</a>
+                </div>
+              </div>
+              <div class="col-span-1 w-1/2">
+                <img src="/img/cute-ghost-pana.svg"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   {% endif %}
 {% endfor %}
+  
